@@ -1,8 +1,17 @@
-import React from 'react'
+import '../styles/Home.css'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <>
+      <div className="homecard">
+        <div className="left">
+          {/* Your content here */}
+        </div>
+        <div className="right">
+          {/* Your content here */}
+        </div>
+      </div>
+    </>
   )
 }
 

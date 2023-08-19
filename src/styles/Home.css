@@ -1,0 +1,12 @@
+.homecard {
+    background-color: rgb(146, 128, 128);
+    display: flex;
+    flex-direction: 1fr 3fr;
+}
+
+.left {
+    background-color: aqua;
+}
+.right {
+    background-color: brown;
+}

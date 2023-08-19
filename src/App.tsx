@@ -1,12 +1,17 @@
-import jLogo from '/public/j Logo.webp'
+import jLogo from '/j Logo.webp'
 import './App.css'
 import Home from './pages/Home'
-
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 function App() {
 
   return (
     <>
-      
+      <Router>
+        <Routes>
+          <Route path = "/" element = {<Home />}/>
+        </Routes>
+      </Router>
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={jLogo} className="logo" alt="Vite logo" />
